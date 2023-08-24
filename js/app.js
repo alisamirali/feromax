@@ -1,261 +1,3 @@
-// let five, six, seven, eight, nine, ten, result;
-// let hb = document.querySelectorAll(".hb__number");
-// let weight = document.querySelectorAll(".weight");
-
-// let result__value = document.querySelector(".result__value");
-
-// hb.forEach((hb__item) => {
-//   hb__item.addEventListener("click", function () {
-//     hb.forEach((innerItem) => {
-//       innerItem.classList.remove("active");
-//     });
-
-//     hb__item.classList.add("active");
-
-//     if (hb__item.getAttribute("value") === "5") {
-//       result = "15";
-//     }
-//   });
-// });
-
-// weight.forEach((weight__item) => {
-//   weight__item.addEventListener("click", function () {
-//     weight.forEach((innerItem) => {
-//       innerItem.classList.remove("active");
-//     });
-
-//     weight__item.classList.add("active");
-//   });
-// });
-
-// switch (five) {
-//   case 40:
-//     result = 15;
-//     break;
-//   case 45:
-//     result = 16;
-//     break;
-//   case 50:
-//     result = 17;
-//     break;
-//   case 55:
-//     result = 18;
-//     break;
-//   case 60:
-//     result = 19;
-//     break;
-//   case 65:
-//     result = 21;
-//     break;
-//   case 70:
-//     result = 22;
-//     break;
-//   case 75:
-//     result = 23;
-//     break;
-//   case 80:
-//     result = 24;
-//     break;
-//   case 85:
-//     result = 25;
-//     break;
-//   case 90:
-//     result = 27;
-//     break;
-//   default:
-//     result = 0;
-// }
-
-// switch (six) {
-//   case 40:
-//     result = 14;
-//     break;
-//   case 45:
-//     result = 15;
-//     break;
-//   case 50:
-//     result = 16;
-//     break;
-//   case 55:
-//     result = 17;
-//     break;
-//   case 60:
-//     result = 18;
-//     break;
-//   case 65:
-//     result = 19;
-//     break;
-//   case 70:
-//     result = 20;
-//     break;
-//   case 75:
-//     result = 21;
-//     break;
-//   case 80:
-//     result = 22;
-//     break;
-//   case 85:
-//     result = 23;
-//     break;
-//   case 90:
-//     result = 24;
-//     break;
-//   default:
-//     result = 0;
-// }
-
-// switch (seven) {
-//   case 40:
-//     result = 13;
-//     break;
-//   case 45:
-//     result = 14;
-//     break;
-//   case 50:
-//     result = 15;
-//     break;
-//   case 55:
-//     result = 16;
-//     break;
-//   case 60:
-//     result = 17;
-//     break;
-//   case 65:
-//     result = 17;
-//     break;
-//   case 70:
-//     result = 18;
-//     break;
-//   case 75:
-//     result = 19;
-//     break;
-//   case 80:
-//     result = 20;
-//     break;
-//   case 85:
-//     result = 21;
-//     break;
-//   case 90:
-//     result = 22;
-//     break;
-//   default:
-//     result = 0;
-// }
-
-// switch (eight) {
-//   case 40:
-//     result = 12;
-//     break;
-//   case 45:
-//     result = 13;
-//     break;
-//   case 50:
-//     result = 13;
-//     break;
-//   case 55:
-//     result = 14;
-//     break;
-//   case 60:
-//     result = 15;
-//     break;
-//   case 65:
-//     result = 16;
-//     break;
-//   case 70:
-//     result = 17;
-//     break;
-//   case 75:
-//     result = 18;
-//     break;
-//   case 80:
-//     result = 18;
-//     break;
-//   case 85:
-//     result = 19;
-//     break;
-//   case 90:
-//     result = 20;
-//     break;
-//   default:
-//     result = 0;
-// }
-
-// switch (nine) {
-//   case 40:
-//     result = 11;
-//     break;
-//   case 45:
-//     result = 11;
-//     break;
-//   case 50:
-//     result = 12;
-//     break;
-//   case 55:
-//     result = 13;
-//     break;
-//   case 60:
-//     result = 14;
-//     break;
-//   case 65:
-//     result = 14;
-//     break;
-//   case 70:
-//     result = 15;
-//     break;
-//   case 75:
-//     result = 16;
-//     break;
-//   case 80:
-//     result = 17;
-//     break;
-//   case 85:
-//     result = 17;
-//     break;
-//   case 90:
-//     result = 18;
-//     break;
-//   default:
-//     result = 0;
-// }
-
-// switch (ten) {
-//   case 40:
-//     result = 10;
-//     break;
-//   case 45:
-//     result = 10;
-//     break;
-//   case 50:
-//     result = 11;
-//     break;
-//   case 55:
-//     result = 12;
-//     break;
-//   case 60:
-//     result = 12;
-//     break;
-//   case 65:
-//     result = 13;
-//     break;
-//   case 70:
-//     result = 13;
-//     break;
-//   case 75:
-//     result = 14;
-//     break;
-//   case 80:
-//     result = 15;
-//     break;
-//   case 85:
-//     result = 15;
-//     break;
-//   case 90:
-//     result = 16;
-//     break;
-//   default:
-//     result = 0;
-// }
-
 const resultMap = {
   5: {
     40: 15,
@@ -337,10 +79,95 @@ const resultMap = {
   },
 };
 
+const resultMap2 = {
+  5: {
+    40: 11,
+    45: 11,
+    50: 12,
+    55: 13,
+    60: 14,
+    65: 14,
+    70: 15,
+    75: 17,
+    80: 17,
+    85: 17,
+    90: 17,
+  },
+  6: {
+    40: 10,
+    45: 10,
+    50: 11,
+    55: 12,
+    60: 12,
+    65: 13,
+    70: 13,
+    75: 24,
+    80: 15,
+    85: 15,
+    90: 15,
+  },
+  7: {
+    40: 9,
+    45: 9,
+    50: 10,
+    55: 10,
+    60: 11,
+    65: 11,
+    70: 12,
+    75: 12,
+    80: 13,
+    85: 13,
+    90: 13,
+  },
+  8: {
+    40: 8,
+    45: 8,
+    50: 9,
+    55: 9,
+    60: 9,
+    65: 10,
+    70: 10,
+    75: 10,
+    80: 11,
+    85: 11,
+    90: 11,
+  },
+  9: {
+    40: 7,
+    45: 7,
+    50: 7,
+    55: 8,
+    60: 8,
+    65: 8,
+    70: 8,
+    75: 9,
+    80: 9,
+    85: 9,
+    90: 9,
+  },
+  10: {
+    40: 6,
+    45: 6,
+    50: 6,
+    55: 6,
+    60: 7,
+    65: 7,
+    70: 7,
+    75: 7,
+    80: 7,
+    85: 7,
+    90: 7,
+  },
+};
+
 let hb = document.querySelectorAll(".hb__number");
 let weight = document.querySelectorAll(".weight");
+
 let result__value = document.querySelector(".result__value");
 result__value.innerHTML = 0;
+
+let result__value2 = document.querySelector(".result__value2");
+result__value2.innerHTML = 0;
 
 let selectedHb = null;
 let selectedWeight = null;
@@ -353,6 +180,7 @@ hb.forEach((hb__item) => {
 
     selectedHb = hb__item.getAttribute("value");
     calculateResult();
+    calculateResult2();
   });
 });
 
@@ -364,6 +192,7 @@ weight.forEach((weight__item) => {
 
     selectedWeight = parseInt(weight__item.getAttribute("value"), 10);
     calculateResult();
+    calculateResult2();
   });
 });
 
@@ -379,6 +208,22 @@ function calculateResult() {
       }
     } else {
       result__value.textContent = "0";
+    }
+  }
+}
+
+function calculateResult2() {
+  if (selectedHb && selectedWeight) {
+    const hbValues = resultMap2[selectedHb];
+    if (hbValues) {
+      const finalResult = hbValues[selectedWeight];
+      if (finalResult !== undefined) {
+        result__value2.textContent = finalResult;
+      } else {
+        result__value2.textContent = "0";
+      }
+    } else {
+      result__value2.textContent = "0";
     }
   }
 }
